@@ -12,6 +12,6 @@ function isPerfectNumber(number) {
     }
   }
 
-isPerfectNumber(6)
+// isPerfectNumber(6)
 isPerfectNumber(28)
-isPerfectNumber(1236498)
+// isPerfectNumber(1236498)
