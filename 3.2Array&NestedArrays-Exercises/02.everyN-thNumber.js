@@ -1,9 +1,13 @@
+// function everyNthNumber(arr, step) {
+//   result = [];
+//   for (let i = 0; i < arr.length; i += step) {
+//     result.push(arr[i]);
+//   }
+//   return result;
+// }
+
 function everyNthNumber(arr, step) {
-  result = [];
-  for (let i = 0; i < arr.length; i += step) {
-    result.push(arr[i]);
-  }
-  return result;
+  return arr.filter((_, i) => i % step === 0);
 }
 
 console.log(everyNthNumber(["5", "20", "31", "4", "20"], 2));
